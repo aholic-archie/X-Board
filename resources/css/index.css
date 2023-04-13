@@ -1,0 +1,182 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.rectangle {
+    width: 1.7rem;
+    height: 0.5rem;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.container-heading {
+    position: relative;
+    height: 16.0625rem;
+}
+
+.navbar {
+    position: absolute;
+    /* width: 82.625rem; */
+    height: 5.6875rem;
+    top: 1.6875rem;
+    left: 3.6875rem;
+    background-color: #FFFFFF !important;
+}
+
+hr {
+    position: absolute;
+    top: 6.6875rem;
+    width: 100vw;
+}
+
+.header {
+    position: absolute;
+    top: 9.6875rem;
+    left: 3.6875rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 16rem;
+    height: 16rem;
+    background-color: red; */
+}
+
+.carousel-item a {
+    text-decoration: none;
+}
+
+img {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    padding-bottom: 0.75rem;
+    height: 28.875rem;
+}
+
+.carousel-control-prev {
+    /* position: absolute;
+    bottom: 50%; */
+    height: 28.875rem;
+}
+
+.carousel-control-next {
+    /* position: absolute;
+    bottom: 50%; */
+    height: 28.875rem;
+}
+
+.carousel-item a h3:hover {
+    color: hsl(228, 45%, 44%);
+}
+
+img:hover {
+    filter: brightness(50%);
+}
+
+.content-para {
+    color: #292B2E;
+}
+
+.author {
+    color: #586069;
+    font-weight: 600;
+    font-size: 0.875rem;
+    /* display: flex;
+    align-items: center; */
+}
+
+#main-heading {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#para {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.dot {
+    background-color: #586069;
+    width: 0.3125rem;
+    height: 0.3125rem;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 0.25rem 0 0.25rem;
+}
+
+b {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #737373;
+}
+
+.accordion-button::after {
+    order: -1;
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+h3,
+h6,
+p {
+    line-height: 1.78125rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #FFFFFF;
+    /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) */
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25) */
+}
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    transform: translateY(43vh);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media(max-width:576px) {
+    .header {
+        position: absolute;
+        top: 9.6875rem;
+        left: 1.5rem;
+    }
+
+    .navbar {
+        position: absolute;
+        /* width: 82.625rem; */
+        height: 5.6875rem;
+        top: 1.6875rem;
+        left: 2.25rem;
+        background-color: #FFFFFF !important;
+    }
+
+    #para {
+        color: #858585;
+    }
+
+    img {
+        height: 12.625rem;
+    }
+
+    .carousel-control-prev {
+        /* position: absolute;
+        bottom: 50%; */
+        height: 12.625rem;
+    }
+
+    .carousel-control-next {
+        /* position: absolute;
+        bottom: 50%; */
+        height: 12.625rem;
+    }
+}
